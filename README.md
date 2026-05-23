@@ -1,5 +1,7 @@
 chạy backend trước
+//////////////////////////////
 phải tự thêm data trong database(lỗi do backend k viết các api cần thiết, k liên quan fe)
+//////////////////////////////
 1 git clone https://github.com/PhamDEVsieucapviprocutephomaique/giaodientmdtrac.git
 2 cd giaodientmdtrac
 3 npm install
