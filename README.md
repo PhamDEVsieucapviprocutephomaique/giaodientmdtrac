@@ -1,13 +1,75 @@
-chạy backend trước
-//////////////////////////////
-phải tự thêm data trong database(lỗi do backend k viết các api cần thiết, k liên quan fe)
-//////////////////////////////
-1 git clone https://github.com/PhamDEVsieucapviprocutephomaique/giaodientmdtrac.git
-2 cd giaodientmdtrac
-3 npm install
-4 trong api/axiosclient.js thay
-baseURL: "http://192.168.1.19:8080", // ⚠️ THAY BẰNG IP MÁY TÍNH CHẠY BACKEND
-5 Tải Expo Go trên điện thoại (version 54 mới nhất điện thoại)
-6 chạy npx expo start
-7 vào expo go điện thoại quyets qr , chờ load hiện ra giao diện
-8 (máy tính và điện thoại cần chung 1 wifi)
+# MarketPlacePro - Frontend Mobile
+
+## Yêu cầu
+- Node.js (18+)
+- Expo Go trên điện thoại
+- Backend đã chạy (xem hướng dẫn backend)
+
+## Cài đặt
+
+### 1. Clone project
+```bash
+git clone https://github.com/PhamDEVsieucapviprocutephomaique/giaodientmdtrac.git
+2. Vào thư mục
+bash
+cd giaodientmdtrac
+3. Cài dependencies
+bash
+npm install
+4. Cấu hình IP backend
+Mở file src/api/axiosClient.js, sửa dòng:
+
+javascript
+baseURL: "http://192.168.1.19:8080",
+⚠️ Thay 192.168.1.19 bằng IP máy tính chạy backend
+
+5. Tải Expo Go
+Tải app Expo Go trên điện thoại (phiên bản mới nhất)
+
+6. Chạy app
+bash
+npx expo start
+7. Kết nối
+Mở Expo Go trên điện thoại
+
+Quét mã QR hiện trên terminal hoặc trình duyệt
+
+Chờ load xong
+
+8. Lưu ý
+📱 Máy tính và điện thoại phải chung 1 mạng WiFi
+
+⚠️ Quan trọng
+Chạy backend trước khi chạy app
+
+Phải tự thêm data trong database (lỗi do backend không viết các API cần thiết, không liên quan FE)
+
+Tài khoản test
+Vai trò	Username	Mật khẩu
+Admin	admin	123456
+Seller	seller1	123456
+Seller	seller2	123456
+Buyer	buyer1	123456
+Tính năng
+Buyer
+Xem danh sách sản phẩm
+
+Tìm kiếm
+
+Xem chi tiết
+
+Xem theo danh mục, theo shop
+
+Seller
+Quản lý sản phẩm (thêm, sửa, xóa)
+
+Xem sản phẩm của shop mình
+
+Admin
+(Đang phát triển)
+
+text
+
+---
+
+**Copy nguyên cái này vào file README.md, nó sẽ xuống dòng đẹp, dễ nhìn.** 🚀
