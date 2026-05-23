@@ -11,12 +11,15 @@
 ```bash
 git clone https://github.com/PhamDEVsieucapviprocutephomaique/giaodientmdtrac.git
 2. Vào thư mục
-bash
+
 cd giaodientmdtrac
+
 3. Cài dependencies
-bash
+
 npm install
+
 4. Cấu hình IP backend
+
 Mở file src/api/axiosClient.js, sửa dòng:
 
 javascript
@@ -44,32 +47,5 @@ Chạy backend trước khi chạy app
 
 Phải tự thêm data trong database (lỗi do backend không viết các API cần thiết, không liên quan FE)
 
-Tài khoản test
-Vai trò	Username	Mật khẩu
-Admin	admin	123456
-Seller	seller1	123456
-Seller	seller2	123456
-Buyer	buyer1	123456
-Tính năng
-Buyer
-Xem danh sách sản phẩm
 
-Tìm kiếm
 
-Xem chi tiết
-
-Xem theo danh mục, theo shop
-
-Seller
-Quản lý sản phẩm (thêm, sửa, xóa)
-
-Xem sản phẩm của shop mình
-
-Admin
-(Đang phát triển)
-
-text
-
----
-
-**Copy nguyên cái này vào file README.md, nó sẽ xuống dòng đẹp, dễ nhìn.** 🚀
