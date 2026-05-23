@@ -16,6 +16,7 @@ export const useAuthStore = create((set) => ({
   },
   loadToken: async () => {
     const token = await AsyncStorage.getItem("token");
-    if (token) set({ token });
+    const refreshToken = await AsyncStorage.getItem("refreshToken");
+    if (token) set({ token, refreshToken });
   },
 }));

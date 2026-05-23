@@ -23,7 +23,7 @@ export default function ShopProductsScreen({ route, navigation }) {
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  }, []);
+  }, [shopId]);
 
   if (loading)
     return (

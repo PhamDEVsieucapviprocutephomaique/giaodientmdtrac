@@ -13,6 +13,9 @@ import ProfileScreen from "./src/screens/tabs/ProfileScreen";
 import ProductDetailScreen from "./src/screens/product/ProductDetailScreen";
 import CategoryProductsScreen from "./src/screens/product/CategoryProductsScreen";
 import ShopProductsScreen from "./src/screens/product/ShopProductsScreen";
+import SellerHomeScreen from "./src/screens/seller/SellerHomeScreen";
+import CreateProductScreen from "./src/screens/seller/CreateProductScreen";
+import EditProductScreen from "./src/screens/seller/EditProductScreen";
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -78,6 +81,9 @@ export default function App() {
           component={CategoryProductsScreen}
         />
         <Stack.Screen name="ShopProducts" component={ShopProductsScreen} />
+        <Stack.Screen name="SellerHome" component={SellerHomeScreen} />
+        <Stack.Screen name="CreateProduct" component={CreateProductScreen} />
+        <Stack.Screen name="EditProduct" component={EditProductScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );

@@ -23,7 +23,7 @@ export default function CategoryProductsScreen({ route, navigation }) {
         setLoading(false);
       })
       .catch(() => setLoading(false));
-  }, []);
+  }, [categoryId]);
 
   if (loading)
     return (
